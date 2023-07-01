@@ -62,3 +62,18 @@ let number = Math.sqrt(num);
     + [Drag-drop](https://fox1206.github.io/games/dragdrop/)
     + [Dashboard](https://fox1206.github.io/Practic/)
     + [Shelter](https://fox1206.github.io/shelter/main/index.html)
+
+
+
+## Education and Courses
+* ***University:*** Far Eastern Federal University. Applied computer science in economics
+* ***Courses:***    
+    + Academy Step. Java programming Language
+    + RS School course "JavaScript/Front-end". Strage0
+    + Redev course "JavaScript" (in progress)
+
+
+
+## Languages:
+* Russian - Native
+* English - A1 (A2 - in progress)
