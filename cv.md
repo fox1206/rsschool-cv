@@ -17,3 +17,21 @@ I am interested in web development because I see career opportunities.
 I am sure that my ability to learn and acquire new skills will help me become a good Frontend developer.
 
 I also love to travel and do yoga, yoga helps concentration.
+
+
+
+## Skills
+* Markdown
+* HTML5
+* CSS3
+* Tailwind
+* Material UI
+* JavaScript Basics
+* React
+* Git
+* GitHub
+* Java Core
+* Thymeleaf
+* Spring MVC
+* Hibernate
+* MySQL
