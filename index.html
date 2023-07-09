@@ -99,13 +99,13 @@
               </div>
 
               <div class="about-me__tabs">
-                <button type="button" class="tab-item active" data-target="#education">Education & Courses</button>
+                <button type="button" class="tab-item" data-target="#education">Education</button>
                 <button type="button" class="tab-item" data-target="#language">Language</button>
-                <button type="button" class="tab-item" data-target="#code">Code Example</button>
+                <button type="button" class="tab-item active" data-target="#code">Code Example</button>
               </div>
 
               <!-- Education -->
-              <div class="content active" id="education">
+              <div class="content" id="education">
                 <h2>Education & Courses</h2>
               <ul class="timeline">
                 <li class="timeline-item">
@@ -141,20 +141,20 @@
               </div>
 
               <!-- Code Example -->
-              <div class="content" id="code">
+              <div class="content active" id="code">
                 <h2>Code Example</h2>
                 <h4>Task from Codewars:</h4>
                 <p>Define a function that takes one integer argument and returns logical value or depending on if the integer is a prime. true false</p>
                 <code>
                   <pre>
-                  function isPrime(num) {
-                    let number = Math.sqrt(num);
-                      for (let i = 2; i <= number; i++) {
-                        if (num % i == 0) {
-                          return false;
-                        }
-                      }return number > 1;
-                    }
+function isPrime(num) {
+  let number = Math.sqrt(num);
+    for (let i = 2; i <= number; i++) {
+      if (num % i == 0) {
+        return false;
+      }
+    }return number > 1;
+  }
                   </pre>
                 </code>
               </div>
@@ -182,5 +182,7 @@
     </footer>
     <!-- FOOTER END -->
   </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
