@@ -37,6 +37,7 @@ body {
   background-image: linear-gradient(to top left, var(--blue-light-color), var(--lite-green-color));
   color: var(--blue-dark-color);
   overflow-x: hidden;
+  background-attachment: fixed;
 }
 
 body::before {
@@ -60,6 +61,7 @@ h3, h4 {
 }
 
 section {
+  margin-bottom: 80px;
   /* min-height: 85vh; */
   /* border-radius: 20px; */
   /* background-color: var(--white-a-25); */
@@ -201,6 +203,13 @@ nav {
     HEADER END
 -------------*/
 
+/*-------------
+    MAIN START
+-------------*/
+
+.hidden {
+  display: none !important;
+}
 /* -------------
     START PAGE
 -------------*/
@@ -253,8 +262,49 @@ nav {
   border-radius: 50%;
 }
 
-
 /*------------- 
-    ABOUT ME START
+    ABOUT ME
+-------------*/
+.about-me-image {
+  width: 40%;
+  padding: 0 15px;
+}
+
+.about-me-text {
+  width: 60%;
+  padding: 0 15px;
+}
+
+.about-me-image-container {
+  margin: auto;
+  background-color: var(--white-a-25);
+  max-width: 380px;
+  border-radius: 20px;
+  border: 1px solid var(--white-a-40);
+}
+
+.about-me-image-container img {
+  width: 100%;
+}
+
+.about-me-text div {
+  margin-bottom: 25px;
+}
+
+.about-me-text h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.about-me-text p {
+  margin-bottom: 15px;
+}
+
+.about-me-text p:last-child {
+  margin-bottom: 0;
+}
+
+/*-------------
+    MAIN END
 -------------*/
 
