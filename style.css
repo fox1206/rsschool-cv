@@ -470,6 +470,7 @@ nav {
   border-radius: 25px;
   margin: 0 auto 100px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .contacts .contacts-item {
@@ -495,7 +496,23 @@ nav {
 /*-------------
     FOOTER START
 -------------*/
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--main-color);
+  user-select: none;
+}
 
+.footer .row a {
+  transition: color .3s ease;
+  color: var(--main-color);
+}
+
+.footer .row a:hover {
+  color: var(--white-color);
+}
 /*-------------
     FOOTER END
 -------------*/
