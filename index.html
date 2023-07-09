@@ -78,34 +78,86 @@
                 <p>Therefore, in my free time from work, I devote myself to studying Frontend development. I am interested in web development because I see career opportunities. I am confident that my ability to learn and acquire new skills will help me become a good Frontend Developer. </p>
                 <p>I also love to travel and do yoga, yoga helps concentration.</p>
               </div>
-              <div>
-                <h2>Education & Courses</h2>
-              <ul>
-                <li>Far Eastern Federal University. Applied computer science in economics</li>
-                <li>Academy Step. Java programming Language</li>
-                <li>RS School course "JavaScript/Front-end"</li>
-                <li>Redev course "JavaScript" (in progress)</li>
-              </ul>
-              </div>
-              <div>
-                <h2>Language</h2>
-              <ul>
-                <li>Russian - native</li>
-                <li>English - A2</li>
-              </ul>
-              </div>
-              
-              <!-- <h2>Skills</h2>
-              <ul class="skills">
-                <li class="skills-item"></li>
-                <li class="skills-item"></li>
-                <li class="skills-item"></li>
-                <li class="skills-item"></li>
-                <li class="skills-item"></li>
-                <li class="skills-item"></li>
-                <li class="skills-item"></li>
-              </ul> -->
 
+              <div>
+                <h2>Skills</h2>
+                <ul class="skills">
+                  <li class="skills-item">HTML</li>
+                  <li class="skills-item">CSS</li>
+                  <li class="skills-item">Material UI</li>
+                  <li class="skills-item">Thymeleaf</li>
+                  <li class="skills-item">Tailwind</li>
+                  <li class="skills-item">Markdown</li>
+                  <li class="skills-item">React</li>
+                  <li class="skills-item">Git</li>
+                  <li class="skills-item">GitHub</li>
+                  <li class="skills-item">Java Core</li>
+                  <li class="skills-item">Spring MVC</li>
+                  <li class="skills-item">Hibernate</li>
+                  <li class="skills-item">MySQL</li>
+                </ul>
+              </div>
+
+              <div class="about-me__tabs">
+                <button type="button" class="tab-item active" data-target="#education">Education & Courses</button>
+                <button type="button" class="tab-item" data-target="#language">Language</button>
+                <button type="button" class="tab-item" data-target="#code">Code Example</button>
+              </div>
+
+              <!-- Education -->
+              <div class="content active" id="education">
+                <h2>Education & Courses</h2>
+              <ul class="timeline">
+                <li class="timeline-item">
+                  <span class="date">2007 - 2012</span>
+                  <h4>Far Eastern Federal University</h4>
+                  <p>Applied computer science in economics</p>
+                </li>
+                <li class="timeline-item">
+                  <span class="date">2020 - 2022</span>
+                  <h4>Academy Step</h4>
+                  <p>Java programming Language</p>
+                </li>
+                <li class="timeline-item">
+                  <span class="date">2022 - 2023</span>
+                  <h4>RS School</h4>
+                  <p>JavaScript/Front-end</p>
+                </li>
+                <li class="timeline-item">
+                  <span class="date">2022 - 2023</span>
+                  <h4>Redev</h4>
+                  <p>JavaScript</p>
+                </li>
+              </ul>
+              </div>
+
+              <!-- Language -->
+              <div class="content" id="language">
+                <h2>Language</h2>
+                <ul class="timeline">
+                  <li class="timeline-item">Russian - native</li>
+                  <li class="timeline-item">English - A2</li>
+                </ul>
+              </div>
+
+              <!-- Code Example -->
+              <div class="content" id="code">
+                <h2>Code Example</h2>
+                <h4>Task from Codewars:</h4>
+                <p>Define a function that takes one integer argument and returns logical value or depending on if the integer is a prime. true false</p>
+                <code>
+                  <pre>
+                  function isPrime(num) {
+                    let number = Math.sqrt(num);
+                      for (let i = 2; i <= number; i++) {
+                        if (num % i == 0) {
+                          return false;
+                        }
+                      }return number > 1;
+                    }
+                  </pre>
+                </code>
+              </div>
             </div>
           </div>
         </div>

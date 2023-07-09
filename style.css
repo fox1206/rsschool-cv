@@ -101,6 +101,11 @@ li {
   align-items: center;
 }
 
+button {
+  font-family: inherit;
+  user-select: none;
+}
+
 .btn {
   position: relative;
   display: inline-block;
@@ -304,6 +309,117 @@ nav {
   margin-bottom: 0;
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills .skills-item {
+  background-color: var(--white-a-25);
+  border: 1px solid var(--white-a-40);
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin: 0 10px 10px 0;
+}
+
+.about-me-text .tab-item {
+  position: relative;
+  display: inline-block;
+  padding: 3px 0;
+  margin: 0 25px 0 0;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  color: var(--blue-dark-color);
+  /* opacity: 0.5; */
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.about-me-text .tab-item:last-child {
+  margin: 0;
+}
+
+.about-me-text .tab-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  background-color: var(--blue-dark-color);
+  transition: width .3s ease;
+}
+
+.about-me-text .tab-item:hover::before {
+  width: 100%;
+}
+
+.about-me-text .tab-item.active::before {
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+.about-me-text .tab-item.active {
+  color: var(--main-color);
+  cursor: auto;
+}
+
+.about-me-text .timeline {
+  position: relative;
+}
+
+.about-me-text .timeline::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  top: 0;
+  left: 5px;
+  background-color: var(--main-color);
+}
+
+.about-me-text .content {
+  padding: 10px 0;
+  display: none;
+}
+
+.about-me-text .content.active {
+  display: block;
+}
+
+.about-me-text .timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 10px 0 0 40px;
+}
+
+.about-me-text .timeline-item::before {
+  content: '';
+  position: absolute;
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  left: 0;
+  top: 17px;
+  background-color: var(--main-color);
+}
+
+.about-me-text .timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.about-me-text .timeline-item .date {
+  display: block;
+  margin: 0 0 5px;
+  color: var(--main-color);
+  font-weight: 400;
+}
+
+.about-me-text .timeline-item h4 {
+  font-size: 18px;
+}
 /*-------------
     MAIN END
 -------------*/
