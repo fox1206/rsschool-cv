@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="assets/image/png/favi.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 <body>
   <div class="wrapper">
@@ -145,19 +148,18 @@
                 <h2>Code Example</h2>
                 <h4>Task from Codewars:</h4>
                 <p>Define a function that takes one integer argument and returns logical value or depending on if the integer is a prime. true false</p>
-                <code>
-                  <pre>
+                <pre><code>
+                  
 function isPrime(num) {
   let number = Math.sqrt(num);
-    for (let i = 2; i <= number; i++) {
+    for (let i = 2; i &lt;= number; i++) {
       if (num % i == 0) {
         return false;
       }
     }return number > 1;
   }
-                  </pre>
-                </code>
-              </div>
+                  </code></pre>
+                </div>
 
               <!-- Buttons -->
               <a href="#" class="btn">Projects</a>
@@ -168,7 +170,7 @@ function isPrime(num) {
       </section>
 
       <!-- Projects -->
-      <section class="main__projects">
+      <section class="main__projects hidden">
         <div class="container">
           <div class="row">
             <div class="main__title p-80">
@@ -176,34 +178,86 @@ function isPrime(num) {
             </div>
           </div>
           <div class="row">
-            <ul>
-              <li project-item>
+            <ul class="projects">
+              <li class="project-item">
                 <h3 class="project-item-title">Portfolio</h3>
                 <div class="project-item-box">
-                  <img src="" alt="picture">
+                  <img src="assets/image/png/1.png" alt="picture">
                 </div>
-                <a href="#" class="btn">View Project</a>
+                <a href="https://rolling-scopes-school.github.io/fox1206-JSFEPRESCHOOL/portfolio/" class="btn">View Project</a>
+                <div class="project-item-info">
+                  <div class="description">
+                    <p>Let us capture the important moments of your life.</p>
+                  </div>
+                  <div class="back-info">
+                    <ul>
+                      <li>Created - <span>Jan 2022</span></li>
+                      <li>Technologies used - <span>HTML, CSS, JS, DOM</span></li>
+                      <li>Role - <span>frontend</span></li>
+                      <li>Link - <span><a href="https://rolling-scopes-school.github.io/fox1206-JSFEPRESCHOOL/portfolio/">show</a></span></li>
+                    </ul>
+                  </div>
+                </div>
               </li>
-              <li project-item>
+              <li class="project-item">
                 <h3 class="project-item-title">Shelter</h3>
                 <div class="project-item-box">
-                  <img src="" alt="picture">
+                  <img src="assets/image/png/2.png" alt="picture">
                 </div>
-                <a href="#" class="btn">View Project</a>
+                <a href="https://fox1206.github.io/shelter/main/index.html" class="btn">View Project</a>
+                <div class="project-item-info">
+                  <div class="description">
+                    <p>If you want a little fluffy joy to live in your home, look for it in a shelter! On our site you will find photos of cats and dogs living in a shelter, fully prepared for life next to you.</p>
+                  </div>
+                  <div class="back-info">
+                    <ul>
+                      <li>Created - <span>May 2023</span></li>
+                      <li>Technologies used - <span>HTML, CSS, JS, DOM</span></li>
+                      <li>Role - <span>frontend</span></li>
+                      <li>Link - <span><a href="https://fox1206.github.io/shelter/main/index.html">show</a></span></li>
+                    </ul>
+                  </div>
+                </div>
               </li>
-              <li project-item>
+              <li class="project-item">
                 <h3 class="project-item-title">Parallax</h3>
                 <div class="project-item-box">
-                  <img src="" alt="picture">
+                  <img src="assets/image/png/3.png" alt="picture">
                 </div>
-                <a href="#" class="btn">View Project</a>
+                <a href="https://fox1206.github.io/parallax-effect/" class="btn">View Project</a>
+                <div class="project-item-info">
+                  <div class="description">
+                    <p>Deep Dive 3D is an effect created with CSS.</p>
+                  </div>
+                  <div class="back-info">
+                    <ul>
+                      <li>Created - <span>Jul 2023</span></li>
+                      <li>Technologies used - <span>HTML, CSS, JS</span></li>
+                      <li>Role - <span>frontend</span></li>
+                      <li>Link - <span><a href="https://fox1206.github.io/parallax-effect/">show</a></span></li>
+                    </ul>
+                  </div>
+                </div>
               </li>
-              <li project-item>
+              <li class="project-item">
                 <h3 class="project-item-title">Resume</h3>
                 <div class="project-item-box">
-                  <img src="" alt="picture">
+                  <img src="assets/image/png/1.png" alt="picture">
                 </div>
-                <a href="#" class="btn">View Project</a>
+                <a href="https://fox1206.github.io/rsschool-cv/" class="btn">View Project</a>
+                <div class="project-item-info">
+                  <div class="description">
+                    <p>This is my CV</p>
+                  </div>
+                  <div class="back-info">
+                    <ul>
+                      <li>Created - <span>Jul 2023</span></li>
+                      <li>Technologies used - <span>HTML, CSS, JS</span></li>
+                      <li>Role - <span>frontend</span></li>
+                      <li>Link - <span><a href="https://fox1206.github.io/rsschool-cv/">show</a></span></li>
+                    </ul>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -211,6 +265,27 @@ function isPrime(num) {
       </section>
 
       <!-- Contacts -->
+      <section class="main__contacts">
+        <div class="container">
+          <div class="row">
+            <div class="main__title p-80">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <ul class="contacts">
+              <li class="contacts-item">
+                <span class="material-symbols-rounded">mail</span>
+                <a href="mailto:wourtex99@gmail.com">wourtex99@gmail.com</a>
+              </li>
+              <li class="contacts-item">
+                <span class="material-symbols-rounded">call</span>
+                <a href="tel:+79208357835">+7 (920) 835-78-35</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
       
     </main>
     <!-- MAIN END -->

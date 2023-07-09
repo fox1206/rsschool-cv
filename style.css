@@ -160,6 +160,7 @@ button {
 }
 
 .wrapper{
+  /* position: relative; */
   max-width: 1400px;
   margin: auto;
   padding: 20px;
@@ -425,7 +426,76 @@ nav {
 .about-me-text .btn {
   margin: 0 15px 15px 0;
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-item-info {
+  display: none;
+}
+
+.project-item {
+  width: calc((100% / 4) - 30px);
+  min-width: 270px;
+  /* margin: 0 15px 30px; */
+  padding: 10px 10px 25px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--white-a-40);
+  background-color: var(--white-a-25);
+  text-align: center;
+}
+
+.project-item-box {
+  margin-bottom: 18px;
+}
+
+.project-item-box img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project-item h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.contacts {
+  padding: 30px 70px;
+  background-color: var(--white-a-25);
+  border: 1px solid var(--white-a-40);
+  border-radius: 25px;
+  margin: 0 auto 100px;
+  display: flex;
+}
+
+.contacts .contacts-item {
+  margin: 0 70px 0 0;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contacts .contacts-item a {
+  color: var(--blue-dark-color);
+}
+
+.contacts .contacts-item:last-child {
+  margin: 0;
+}
 /*-------------
     MAIN END
 -------------*/
 
+/*-------------
+    FOOTER START
+-------------*/
+
+/*-------------
+    FOOTER END
+-------------*/
