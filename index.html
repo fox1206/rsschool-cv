@@ -20,12 +20,12 @@
       <nav class="container">
         <div class="row">
           <ul class="nav-links">
-            <li class="item-link"><a href="#">About Me</a></li>
-            <li class="item-link"><a href="#">Skills</a></li>
-            <li class="item-link"><a href="#">Code Example</a></li>
-            <li class="item-link"><a href="#">Projects</a></li>
+            <li class="item-link"><a href="#about">About Me</a></li>
+            <li class="item-link"><a href="#skills">Skills</a></li>
+            <li class="item-link"><a href="#code">Code Example</a></li>
+            <li class="item-link"><a href="#projects">Projects</a></li>
             <!-- <li class="item-link"><a href="#">Education</a></li> -->
-            <li class="item-link"><a href="#">Contacts</a></li>
+            <li class="item-link"><a href="#contacts">Contacts</a></li>
           </ul>
         </div>
       </nav>
@@ -41,15 +41,15 @@
     <!-- MAIN START -->
     <main class="main">
       <!-- Start page -->
-      <section class="main__start-page center hidden">
+      <section class="main__start-page center">
         <div class="container">
           <div class="row center">
             <div class="start-text">
               <p>Hello, I am</p>
               <h1>Mari Komardina</h1>
               <h2>frontend developer</h2>
-              <a href="#" class="btn">About Me</a>
-              <a href="#" class="btn">Portfolio</a>
+              <a href="#about" class="btn">About Me</a>
+              <a href="#projects" class="btn">Projects</a>
             </div>
             <div class="start-image">
               <div class="container-image">
@@ -61,7 +61,7 @@
       </section>
 
       <!-- About Me -->
-      <section class="main__about-me hidden">
+      <section class="main__about-me" id="about">
         <div class="container">
           <div class="row">
             <div class="main__title p-80">
@@ -83,7 +83,7 @@
               </div>
 
               <div>
-                <h2>Skills</h2>
+                <h2 id="skills">Skills</h2>
                 <ul class="skills">
                   <li class="skills-item">HTML</li>
                   <li class="skills-item">CSS</li>
@@ -162,15 +162,15 @@ function isPrime(num) {
                 </div>
 
               <!-- Buttons -->
-              <a href="#" class="btn">Projects</a>
-              <a href="#" class="btn">Contacts</a>
+              <a href="#projects" class="btn">Projects</a>
+              <a href="#contacts" class="btn">Contacts</a>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Projects -->
-      <section class="main__projects hidden">
+      <section class="main__projects" id="projects">
         <div class="container">
           <div class="row">
             <div class="main__title p-80">
@@ -265,7 +265,7 @@ function isPrime(num) {
       </section>
 
       <!-- Contacts -->
-      <section class="main__contacts">
+      <section class="main__contacts" id="contacts">
         <div class="container">
           <div class="row">
             <div class="main__title p-80">
