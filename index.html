@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/image/png/favi.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+  <div class="wrapper">
+    <!-- HEADER START -->
+    <header class="header">
+      <nav class="container">
+        <div class="row">
+          <ul class="nav-links">
+            <li class="item-link"><a href="#about">About Me</a></li>
+            <li class="item-link"><a href="#skills">Skills</a></li>
+            <li class="item-link"><a href="#code">Code Example</a></li>
+            <li class="item-link"><a href="#projects">Projects</a></li>
+            <!-- <li class="item-link"><a href="#">Education</a></li> -->
+            <li class="item-link"><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__burger">
+        <div class="hamburger-menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main class="main">
+      <!-- Start page -->
+      <section class="main__start-page center">
+        <div class="container">
+          <div class="row center">
+            <div class="start-text">
+              <p>Hello, I am</p>
+              <h1>Mari Komardina</h1>
+              <h2>frontend developer</h2>
+              <a href="#about" class="btn">About Me</a>
+              <a href="#projects" class="btn">Projects</a>
+            </div>
+            <div class="start-image">
+              <div class="container-image">
+                <img src="./assets/image/png/600x600.png" alt="myPhoto">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section class="main__about-me" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="main__title p-80">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-me-image">
+              <div class="about-me-image-container">
+                <img src="./assets/image/png/600x700.png" alt="photo">
+              </div>
+            </div>
+            <div class="about-me-text">
+              <div>
+                <p>I work in a bank that is one of the three leaders in the country.</p>
+                <p>So far, I'm just a loan officer. And I have a dream to become a cool developer and work in the same organization, but already in front-end development. </p>
+                <p>Therefore, in my free time from work, I devote myself to studying Frontend development. I am interested in web development because I see career opportunities. I am confident that my ability to learn and acquire new skills will help me become a good Frontend Developer. </p>
+                <p>I also love to travel and do yoga, yoga helps concentration.</p>
+              </div>
+
+              <div>
+                <h2 id="skills">Skills</h2>
+                <ul class="skills">
+                  <li class="skills-item">HTML</li>
+                  <li class="skills-item">CSS</li>
+                  <li class="skills-item">Material UI</li>
+                  <li class="skills-item">Thymeleaf</li>
+                  <li class="skills-item">Tailwind</li>
+                  <li class="skills-item">Markdown</li>
+                  <li class="skills-item">React</li>
+                  <li class="skills-item">Git</li>
+                  <li class="skills-item">GitHub</li>
+                  <li class="skills-item">Java Core</li>
+                  <li class="skills-item">Spring MVC</li>
+                  <li class="skills-item">Hibernate</li>
+                  <li class="skills-item">MySQL</li>
+                </ul>
+              </div>
+
+              <div class="about-me__tabs">
+                <button type="button" class="tab-item" data-target="#education">Education</button>
+                <button type="button" class="tab-item" data-target="#language">Language</button>
+                <button type="button" class="tab-item active" data-target="#code">Code Example</button>
+              </div>
+
+              <!-- Education -->
+              <div class="content" id="education">
+                <h2>Education & Courses</h2>
+              <ul class="timeline">
+                <li class="timeline-item">
+                  <span class="date">2007 - 2012</span>
+                  <h4>Far Eastern Federal University</h4>
+                  <p>Applied computer science in economics</p>
+                </li>
+                <li class="timeline-item">
+                  <span class="date">2020 - 2022</span>
+                  <h4>Academy Step</h4>
+                  <p>Java programming Language</p>
+                </li>
+                <li class="timeline-item">
+                  <span class="date">2022 - 2023</span>
+                  <h4>RS School</h4>
+                  <p>JavaScript/Front-end</p>
+                </li>
+                <li class="timeline-item">
+                  <span class="date">2022 - 2023</span>
+                  <h4>Redev</h4>
+                  <p>JavaScript</p>
+                </li>
+              </ul>
+              </div>
+
+              <!-- Language -->
+              <div class="content" id="language">
+                <h2>Language</h2>
+                <ul class="timeline">
+                  <li class="timeline-item">Russian - native</li>
+                  <li class="timeline-item">English - A2</li>
+                </ul>
+              </div>
+
+              <!-- Code Example -->
+              <div class="content active" id="code">
+                <h2>Code Example</h2>
+                <h4>Task from Codewars:</h4>
+                <p>Define a function that takes one integer argument and returns logical value or depending on if the integer is a prime. true false</p>
+                <pre><code>
+                  
+function isPrime(num) {
+  let number = Math.sqrt(num);
+    for (let i = 2; i &lt;= number; i++) {
+      if (num % i == 0) {
+        return false;
+      }
+    }return number > 1;
+  }
+                  </code></pre>
+                </div>
+
+              <!-- Buttons -->
+              <a href="#projects" class="btn">Projects</a>
+              <a href="#contacts" class="btn">Contacts</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="main__projects" id="projects">
+        <div class="container">
+          <div class="row">
+            <div class="main__title p-80">
+              <h2>Projects</h2>
+            </div>
+          </div>
+          <div class="row">
+            <ul class="projects">
+              <li class="project-item">
+                <h3 class="project-item-title">Portfolio</h3>
+                <div class="project-item-box">
+                  <img src="./assets/image/png/1.png" alt="picture">
+                </div>
+                <a href="https://rolling-scopes-school.github.io/fox1206-JSFEPRESCHOOL/portfolio/" class="btn">View Project</a>
+                <div class="project-item-info">
+                  <div class="description">
+                    <p>Let us capture the important moments of your life.</p>
+                  </div>
+                  <div class="back-info">
+                    <ul>
+                      <li>Created - <span>Jan 2022</span></li>
+                      <li>Technologies used - <span>HTML, CSS, JS, DOM</span></li>
+                      <li>Role - <span>frontend</span></li>
+                      <li>Link - <span><a href="https://rolling-scopes-school.github.io/fox1206-JSFEPRESCHOOL/portfolio/">show</a></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="project-item">
+                <h3 class="project-item-title">Shelter</h3>
+                <div class="project-item-box">
+                  <img src="./assets/image/png/2.png" alt="picture">
+                </div>
+                <a href="https://fox1206.github.io/shelter/main/index.html" class="btn">View Project</a>
+                <div class="project-item-info">
+                  <div class="description">
+                    <p>If you want a little fluffy joy to live in your home, look for it in a shelter! On our site you will find photos of cats and dogs living in a shelter, fully prepared for life next to you.</p>
+                  </div>
+                  <div class="back-info">
+                    <ul>
+                      <li>Created - <span>May 2023</span></li>
+                      <li>Technologies used - <span>HTML, CSS, JS, DOM</span></li>
+                      <li>Role - <span>frontend</span></li>
+                      <li>Link - <span><a href="https://fox1206.github.io/shelter/main/index.html">show</a></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="project-item">
+                <h3 class="project-item-title">Parallax</h3>
+                <div class="project-item-box">
+                  <img src="./assets/image/png/3.png" alt="picture">
+                </div>
+                <a href="https://fox1206.github.io/parallax-effect/" class="btn">View Project</a>
+                <div class="project-item-info">
+                  <div class="description">
+                    <p>Deep Dive 3D is an effect created with CSS.</p>
+                  </div>
+                  <div class="back-info">
+                    <ul>
+                      <li>Created - <span>Jul 2023</span></li>
+                      <li>Technologies used - <span>HTML, CSS, JS</span></li>
+                      <li>Role - <span>frontend</span></li>
+                      <li>Link - <span><a href="https://fox1206.github.io/parallax-effect/">show</a></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="project-item">
+                <h3 class="project-item-title">Resume</h3>
+                <div class="project-item-box">
+                  <img src="./assets/image/png/4.png" alt="picture">
+                </div>
+                <a href="https://fox1206.github.io/rsschool-cv/" class="btn">View Project</a>
+                <div class="project-item-info">
+                  <div class="description">
+                    <p>This is my CV</p>
+                  </div>
+                  <div class="back-info">
+                    <ul>
+                      <li>Created - <span>Jul 2023</span></li>
+                      <li>Technologies used - <span>HTML, CSS, JS</span></li>
+                      <li>Role - <span>frontend</span></li>
+                      <li>Link - <span><a href="https://fox1206.github.io/rsschool-cv/">show</a></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacts -->
+      <section class="main__contacts" id="contacts">
+        <div class="container">
+          <div class="row">
+            <div class="main__title p-80">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <ul class="contacts">
+              <li class="contacts-item">
+                <span class="material-symbols-rounded">mail</span>
+                <a href="mailto:wourtex99@gmail.com">wourtex99@gmail.com</a>
+              </li>
+              <li class="contacts-item">
+                <span class="material-symbols-rounded">call</span>
+                <a href="tel:+79208357835">+7 (920) 835-78-35</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer__school">
+            <a href="https://rs.school/js/">RS_SCHOOL</a>
+          </div>
+          <div class="footer__github">
+            <a href="https://github.com/fox1206">GITHUB</a>
+          </div>
+          <div class="footer__year">2023</div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
